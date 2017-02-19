@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_login_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.unknownper.missingapp.Post_mis_beg"
+    tools:showIn="@layout/post_mis_beg">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="506dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_height="200dp">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="6dp"
+                                    android:id="@+id/imageView"
+                                    android:src="@drawable/user"/>
+              <!--- oncli="miss_camera"-->
+                                     <ImageView
+                                          android:layout_width="50dp"
+                                          android:src="@mipmap/ic_camera"
+                                          android:layout_height="50dp"
+                                          android:id="@+id/imageView2"
+                                          android:layout_alignParentBottom="true"
+                                          android:layout_alignParentRight="true"
+                                          android:layout_alignParentEnd="true"
+                                          android:layout_marginRight="36dp"
+                                          android:layout_marginEnd="36dp" />
+
+                                      <ImageView
+                                          android:layout_width="50dp"
+                                          android:onClick="miss_gallery"
+                                          android:src="@mipmap/ic_attach"
+                                          android:layout_height="50dp"
+                                          android:id="@+id/attach"
+                                          android:layout_marginRight="0dp"
+                                          android:layout_alignParentBottom="true"
+                                          android:layout_toStartOf="@+id/imageView2"
+                                          android:layout_marginEnd="25dp" />
+
+                                  </RelativeLayout>
+
+                             <!--     <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="horizontal">
+                                      <CheckBox
+                                          android:layout_width="50dp"
+                                          android:checked="false"
+                                          android:layout_height="50dp"
+                                          android:paddingBottom="20dp"
+                                          android:id="@+id/checkBox" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+                                          android:layout_margin="10dp"
+                                          android:textSize="15dp"
+                                          android:textStyle="normal"
+                                          android:text="Do you have adhar number?"/>
+                                  </LinearLayout>-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+                                  <EditText
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:id="@+id/aa"
+                                      android:maxLength="12"
+                                      android:paddingBottom="20dp"
+                                      android:inputType="number"
+                                      android:hint="Adhar No"/>
+                                  <EditText
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:paddingBottom="20dp"
+                                      android:id="@+id/name"
+                                      android:inputType="text"
+                                      android:hint="Name"/>
+                                  <EditText
+                                      android:id="@+id/age"
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:paddingBottom="20dp"
+                                      android:inputType="number"
+                                      android:hint="Age"/>
+                                  <EditText
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:id="@+id/add"
+                                      android:paddingBottom="20dp"
+                                      android:hint="Address"/>
+                                  <Button
+                                      android:layout_width="match_parent"
+                                      android:text="upload"
+                                      android:layout_marginRight="14dp"
+                                      android:background="#f50057"
+                                      android:textColor="#ffffff"
+                                      android:id="@+id/mis_upload"
+                                      android:layout_height="wrap_content" />
+      </LinearLayout>
+                              </LinearLayout>
+                          </ScrollView>
+                      </LinearLayout>
+                      <LinearLayout
+                          android:id="@+id/tab2"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                          <ScrollView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                              <LinearLayout
+                                  android:orientation="vertical"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <RelativeLayout
+                                      android:layout_width="200dp"
+                                      android:layout_gravity="center"
+                                      android:gravity="center"
+                                      android:layout_height="200dp">
+                                      <ImageView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="match_parent"
+                                          android:padding="6dp"
+                                          android:src="@drawable/user"
+                                          android:id="@+id/imageView3"/>
+                                      <ImageView
+                                          android:layout_width="50dp"
+                                          android:src="@mipmap/ic_camera"
+                                          android:layout_height="50dp"
+                                          android:id="@+id/imageView4"
+                                          android:layout_alignParentBottom="true"
+                                          android:layout_alignParentRight="true"
+                                          android:layout_alignParentEnd="true"
+                                          android:layout_marginRight="36dp"
+                                          android:layout_marginEnd="36dp" />
+                                      <ImageView
+                                          android:layout_width="50dp"
+                                          android:src="@mipmap/ic_attach"
+                                          android:onClick="launch_gallery"
+                                          android:layout_height="50dp"
+                                          android:id="@+id/attach1"
+                                          android:layout_marginRight="0dp"
+                                          android:layout_alignParentBottom="true"
+                                          android:layout_toStartOf="@+id/imageView4"
+                                          android:layout_marginEnd="25dp" />
+                                  </RelativeLayout>
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="horizontal">
+                                      <TextView
+                                          android:layout_width="150dp"
+                                          android:layout_height="wrap_content"
+                                          android:background="@android:color/transparent"
+                                          android:paddingLeft="20dp"
+                                          android:text="Location"
+                                          android:paddingTop="20dp"
+                                          android:textColorHighlight = "#21ffff"
+                                          android:textColorHint = "#030100"
+                                          android:id="@+id/beg_location_lat"/>
+                                      <TextView
+                                          android:layout_width="100dp"
+                                          android:layout_height="wrap_content"
+                                          android:text="lati"
+                                          android:id="@+id/beg_location_lng"
+                                          android:layout_margin="5dp"
+                                          />
+                                      <ImageView
+                                          android:layout_width="50dp"
+                                          android:onClick="get_location"
+                                          android:layout_height="50dp"
+                                          android:paddingTop="20dp"
+                                          android:src="@drawable/gps2"/>
+                                  </LinearLayout>
+                                  <Button
+                                      android:layout_width="match_parent"
+                                      android:background="#f50057"
+                                      android:layout_marginRight="14dp"
+                                      android:textColor="#ffffff"
+                                      android:layout_height="wrap_content"
+                                      android:text="upload"
+                                      android:id="@+id/beg_upload"
+                                      />
+                                 <!-- <Button
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:text="Location_Maps"
+                                      android:id="@+id/location_map"
+                                      android:onClick="Location_Maps"
+                                     />-->
+
+                              </LinearLayout>
+                          </ScrollView>
+                      </LinearLayout>
+
+                  </FrameLayout>
+              </LinearLayout>
+          </TabHost>
+      </RelativeLayout>

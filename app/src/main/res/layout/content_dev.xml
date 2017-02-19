@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="58dp" tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Developers"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/me1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Sandeep Gandhasiri"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ph.No:9645245222"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="e-Mail:sgandhsiri@gmail.com"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/venky12"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="VenkataRao Sigilipalli"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ph.No:9703044463"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="e-Mail:venky96615@gmail.com"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jyothi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="JyothiBabu Valagala"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ph.No:9160785191"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="e-Mail:jyothibabuv143@gmail.com"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@drawable/me1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Madhu"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ph.No:9492489408"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="e-Mail:madhu123@gmail.com"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
